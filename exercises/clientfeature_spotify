@@ -1,0 +1,17 @@
+Spotify Download Feature
+
+Premium Spotify users are able to download music
+
+There are not really any visual changes, but the songs are downloaded so the user can access without the server
+
+if user clicks download song
+  then server checks if user is premium 
+    if premium allow download
+    if not redirect to option to buy premium
+if songs downloaded
+  then client organizes songs
+  client has option to organize songs into playlists
+  
+  Github Usernames:
+  @daltonlarsonucf
+  @mollymurtha
