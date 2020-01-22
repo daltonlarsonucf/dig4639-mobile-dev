@@ -15,3 +15,7 @@ Organized and hard-working Digital Media student from University of Central Flor
 1. Item 1 [Google] (http://wwww.google.com)
 2. Item 2
 3. Item 3
+
+## Conflicts
+
+This section represents code on the server that isn't on the local repository.
