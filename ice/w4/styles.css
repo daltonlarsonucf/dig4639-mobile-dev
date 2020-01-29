@@ -1,0 +1,32 @@
+@media screen and (max-width: 500px) {
+
+}
+  
+@media screen and (min-width: 500px) {
+    
+}
+
+body{
+    background-color: #4682b4;
+    color: #fff;
+    text-align: center;
+    font-family: Helvetica;
+    border: 4px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: Optima;
+}
+
+p {
+    text-align: center;
+    width: 70%;
+}
+
+.author{
+    width:100%;
+    display: block;
+    font-family: zapfino; 
+}
