@@ -14,6 +14,6 @@ let article2 = new Article(
     text: "This is the new text!"
   }
 );
-
+ 
 console.log(article.render() );
 console.log(article2.render() );
