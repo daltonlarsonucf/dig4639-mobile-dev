@@ -1,0 +1,17 @@
+{
+  "name": "package.json",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daltonlarsonucf/dig4639-mobile-dev.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/daltonlarsonucf/dig4639-mobile-dev#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
