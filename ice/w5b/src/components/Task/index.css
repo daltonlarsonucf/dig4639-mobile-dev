@@ -1,3 +1,43 @@
 .task {
-background: grey;
-}
+    padding: 5px;
+    }
+
+body {
+    background: #B7D1D3;
+    color: #000;
+    font-family: Helvetica;
+  }
+
+
+  input, button {
+    outline: none;
+  }
+  button {
+    background: none;
+    border: 0px;
+    color: #000;
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Helvetica;
+  }
+  button:hover {
+    color: #333;
+  }
+
+  input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: helvetica;
+    color: #888;
+  }
+  input[type="text"]:focus {
+    color: #333;
+  }
+  

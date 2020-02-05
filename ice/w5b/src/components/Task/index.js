@@ -16,8 +16,9 @@ class Task {
         this.element.className = "task";
     }
     onClick(e) {
-        if(e.target.checked) {
-            console.log("input is true");
+        this.props.done = e.target.checked;
+        if(this.props.done == true) {
+            console.log("strikethrough");
         }
         console.log(this);
         console.log(e.target);
