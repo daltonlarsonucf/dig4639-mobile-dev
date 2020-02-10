@@ -5,8 +5,8 @@ function runOnLoad() {
     element.id = "container";
     document.body.appendChild(element);
     var newCard = new Card ({
-        answer: "Yellow",
-        question: "What color?"
+        answer: "npm init",
+        question: "What command creates a package.json file?"
     });
     element.appendChild(newCard.render());
 }
