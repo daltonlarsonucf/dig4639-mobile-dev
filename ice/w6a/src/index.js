@@ -110,7 +110,9 @@ function Square(props) {
       [2, 6, 10, 14],
       [3, 7, 11, 15],
       [0, 5, 10, 15],
-      [3, 6, 9, 12]
+      [3, 6, 9, 12],
+      [0, 3, 12, 15],
+      [5, 6, 9, 10]
     ];
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c, d] = lines[i];
