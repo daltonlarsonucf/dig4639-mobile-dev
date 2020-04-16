@@ -79,7 +79,8 @@ export default function HomeScreen() {
         <ActivityIndicator/>
         :
           contacts.map((contact, i) =>
-          //<Card style = {styles.card} key = {i} title = {contact.name}></Card>
+          //<Card style = {styles.card} key = {i} title = {contact.name}>{contact.number}</Card>
+            //Error because of {contact.number}
           <Text style = {styles.card} key = {i}>{contact.name}{'\n'}{contact.number}</Text>
           )
         }
