@@ -22,10 +22,10 @@ class Contacts extends React.Component {
         API: 'larson' 
       }
     })
-      .then((res) => res.json())
-      .then((data) => {
-        this.setState({ contacts: data.contacts });
-      });
+    .then((res) => res.json())
+    .then((data) => {
+      this.setState({ contacts: data.contacts });
+    });
   }
 
   profileInfo() {
@@ -34,10 +34,10 @@ class Contacts extends React.Component {
         API: 'larson' 
       }
     })
-      .then((res) => res.json())
-      .then((data) => {
-        this.setState({ profile: data });
-      });
+    .then((res) => res.json())
+    .then((data) => {
+      this.setState({ profile: data });
+    });
   }
 
   addContact = (event) => {
@@ -53,11 +53,11 @@ class Contacts extends React.Component {
         API: 'larson' 
       }
     })
-      .then(res => { return res.json() })
-      .then(() => {
-        this.profileInfo();
-        this.contactInfo();
-      });
+    .then(res => { return res.json() })
+    .then(() => {
+      this.profileInfo();
+      this.contactInfo();
+    });
   }
 
   removeContact = (index) => {
@@ -69,11 +69,11 @@ class Contacts extends React.Component {
         API: 'larson' 
       }
     })
-      .then(res => { return res.json() })
-      .then(() => {
-        this.profileInfo();
-        this.contactInfo();
-      });
+    .then(res => { return res.json() })
+    .then(() => {
+      this.profileInfo();
+      this.contactInfo();
+    });
   }
 
   render() {
@@ -90,8 +90,8 @@ class Contacts extends React.Component {
           <fieldset>
             <h2>Add Contact</h2>
             <form onSubmit = {this.addContact}>
-              <input ref = 'name' type = 'text' placeholder = 'Full Name' />
-              <input ref = 'number' type = 'text' placeholder = 'Phone Number' />
+              <input ref = 'name' type = 'text' placeholder = 'Name' />
+              <input ref = 'number' type = 'text' placeholder = 'Number' />
               <button type = 'submit'>Add</button>
             </form>
           </fieldset>
@@ -111,4 +111,5 @@ class Contacts extends React.Component {
     );
   }
 }
+
 export default Contacts;
